@@ -1,0 +1,46 @@
+
+
+
+/*----------- BODY --------------*/
+
+/*----------- Page Wrapper --------------*/
+#pageWrapper {
+    grid-template-areas: 
+    "header header"
+    "navigation content"
+    "footer footer";
+    grid-template-columns: 150px auto;
+}
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul li a{padding: .5rem 1rem;}
+    div#myLinks {
+        display: none;
+    }
+    div#hamburger {
+        display: none;
+    }
+
+
+/*----------- MAIN --------------*/
+main {
+    div {
+        display: flex;
+    }
+    div img {
+        max-height: 70px;
+        min-width: 100px;
+        max-width: 100px;
+        margin: 1rem;
+    }
+}
+
+
+/*----------- FOOTER --------------*/
+    
